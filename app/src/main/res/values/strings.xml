@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">Cita App</string>
+    <string name="navigation_drawer_open">Buka Navigasi Drawer</string>
+    <string name="navigation_drawer_close">Tutup Navigasi Drawer</string>
+    <string name="nav_header_title">Bintang Fadjrul Fallah</string>
+    <string name="nav_header_subtitle">bintang@exmple.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Pengaturan</string>
+    <string name="action_logout">Keluar</string>
+
+
+    <string name="full_name">Nama Lengkap*</string>
+    <string name="password">Kata Sandi*</string>
+    <string name="next">Lanjut</string>
+    <string name="cancel">Batal</string>
+    <string name="back">Kembali</string>
+    <string name="delete">Hapus</string>
+    <string name="login">Masuk</string>
+    <string name="register">Daftar</string>
+    <string name="confirm_password">Ulangi Kata Sandi*</string>
+    <string name="email">Alamat Email*</string>
+    <string name="logout">Keluar</string>
+
+
+    <string name="menu_home">Beranda</string>
+    <string name="menu_profile">Profil</string>
+    <string name="menu_nutrient">Kandungan Gizi</string>
+    <string name="menu_child">Anak</string>
+    <string name="menu_guide">Panduan</string>
+    <string name="menu_about">Tentang Kita</string>
+    <string name="menu_policy">Kebijakan Privasi</string>
+    <string name="menu_gallery">Galeri</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Alat</string>
+    <string name="menu_share">Bagikan</string>
+    <string name="menu_send">Kirim</string>
+    <string name="title_activity_settings">Pengaturan</string>
+
+    <string name="messages_header">Messages</string>
+
+    <!-- Preference Titles -->
+    <string name="sync_header">Sync</string>
+    <string name="signature_title">Your signature</string>
+
+    <!-- Messages Preferences -->
+    <string name="reply_title">Default reply action</string>
+    <string name="sync_title">Sync email periodically</string>
+
+    <!-- Sync Preferences -->
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="other">Lainnya</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="create_child">Tambah Anak</string>
+    <string name="gender">Jenis Kelamin*</string>
+    <string name="date_of_birth">Tangal Lahir*</string>
+    <string name="create">tambah</string>
+    <string name="create_nutrient">Tambah Kandungan Gizi</string>
+    <string name="nutrient_name">Nama Kandungan Gizi*</string>
+    <string name="carbohydrate">Karbohidrat*</string>
+    <string name="calories">Kalori*</string>
+    <string name="fat">Lemak*</string>
+    <string name="protein">Protein*</string>
+    <string name="icon">icon</string>
+    <string name="dont_have_account">Belum punya akun?&#160;</string>
+    <string name="register_now">Daftar Sekarang!</string>
+    <string name="have_account">Sudah punya akun?&#160;</string>
+    <string name="login_now">Masuk Sekarang!</string>
+    <string name="forgot_password">Lupa kata sandi?&#160;</string>
+    <string name="reset_password">Atur Ulang Kata Sandi</string>
+    <string name="background_navigation_drawer">Background Navigation Drawer</string>
+    <string name="image_profile_navigation_drawer">Image Profile Navigation Drawer</string>
+    <string name="txt_full_name_with_colon">Nama Lengkap:&#160;</string>
+    <string name="txt_gender_with_colon">Jenis Kelamin:&#160;</string>
+    <string name="txt_date_of_birth_with_colon">Tanggal Lahir:&#160;</string>
+    <string name="txt_age">Usia:</string>
+    <string name="txt_nutrient_name_with_colon">Nama Kanduangan Gizi:&#160;</string>
+    <string name="txt_carbohydrate_with_colon">Karbohidrat:&#160;</string>
+    <string name="txt_calories_with_colon">Kalori:&#160;</string>
+    <string name="txt_fat_with_colon">Lemak:&#160;</string>
+    <string name="txt_protein_with_colon">Protein:&#160;</string>
+    <string name="txt_full_name">Nama Lengkap</string>
+    <string name="txt_email_address">Alamat Email</string>
+    <string name="txt_password">Kata Sandi</string>
+    <string name="txt_gender">Jenis Kelamin</string>
+    <string name="txt_date_of_birth">Tanggal Lahir</string>
+    <string name="txt_nutrient_name">Nama Kanduangan Gizi</string>
+    <string name="txt_carbohydrate">Karbohidrat</string>
+    <string name="txt_calories">Kalori</string>
+    <string name="txt_fat">Lemak</string>
+    <string name="txt_protein">Protein</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string-array name="nav_item_user_activity_titles">
+        <item>Beranda</item>
+        <item>Profil</item>
+        <item>Data Kandungan Gizi</item>
+        <item>Data Anak</item>
+    </string-array>
+
+    <string-array name="nav_item_admin_activity_titles">
+        <item>Beranda</item>
+        <item>Profil</item>
+        <item>Data Kandungan Gizi</item>
+    </string-array>
+</resources>

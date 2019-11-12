@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.cita.citaapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <dist:module dist:instant="true" />
+
+    <application
+        android:name=".app.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".ui.child.NutrientActivity"></activity>
+        <activity android:name=".ui.child.ChildActivity" />
+        <activity android:name=".UpdateProfileActivity" />
+        <activity android:name=".UpdateNutrientActivity" />
+        <activity android:name=".UpdateChildActivity" />
+        <activity android:name=".AdminMainActivity" />
+        <activity android:name=".ForgotPasswordActivity" />
+        <activity android:name=".CreateNutrientActivity" />
+        <activity android:name=".CreateChildActivity" />
+        <activity android:name=".PrivacyPolicyActivity" />
+        <activity android:name=".AboutUsActivity" />
+        <activity android:name=".GuideActivity" />
+        <activity
+            android:name=".SettingActivity"
+            android:label="@string/title_activity_settings" />
+        <activity
+            android:name=".RegisterActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".UserMainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
